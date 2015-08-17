@@ -15,7 +15,7 @@ import java.util.Date;
 public class ConsoleHelper
 {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    public static final String NAME_REGULAR_EXPRESSION = "\\w{3,20}";
+    public static final String NAME_REGULAR_EXPRESSION = "[a-z,A-Z,а-я,А-Я]{3,20}";
     public static final String SEX_REGULAR_EXPRESSION = "[wWmM]{1}";
 
     private ConsoleHelper() {
